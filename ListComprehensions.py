@@ -14,5 +14,4 @@ if __name__ == '__main__':
               if sum != n:
                   lis.append([x,y,z])
     
-    
     print(lis)
