@@ -11,5 +11,5 @@ if __name__ == '__main__':
     for mark in student_marks[query_name]:
         total=total+mark
     
-    avg = total/len(student_marks[query_name])    
-    print(avg)
+    avg = total/len(student_marks[query_name])
+    print("%.2f" %avg)
